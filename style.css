@@ -117,15 +117,23 @@
   align-items: baseline;
 }
 
-#work-container {
+/* #work-container {
   display: grid;
   flex-direction: column;
   gap: 20px;
   padding-top: 12px;
   background-color: #fff;
+} */
+
+#work-container {
+  display: grid;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 12px;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
-.container {
+/* .container {
   display: grid;
   grid-template-columns: auto;
   gap: 10px;
@@ -135,6 +143,16 @@
   margin: 50px auto;
   padding: 16px 0;
   position: static;
+} */
+
+.container {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  border-radius: 16px;
+  border: 1px solid rgb(223, 225, 230);
+  margin: 50px auto;
+  padding: 16px 0;
+  flex-direction: column;
 }
 
 .container > figure {
@@ -340,14 +358,13 @@
 }
 
 .about-description {
-  font: normal normal 400 16px 'Poppins', sans-serif;
+  font: 400 16px / 24px 'Poppins', sans-serif;
   position: static;
-  width: 370px;
-  height: 144px;
+  width: 100%;
   left: 0;
   top: 113px;
-  line-height: 24px;
-  color: #344563;
+  height: 170px;
+  color: rgb(52, 69, 99);
   margin: 12px 0;
 }
 
