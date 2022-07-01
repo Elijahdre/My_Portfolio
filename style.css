@@ -62,7 +62,7 @@
   background-clip: padding-box;
   object-fit: contain;
   padding-bottom: 138px;
-  margin-bottom: 114px;
+  margin-bottom: 10px;
   border-bottom-left-radius: 20px;
 }
 
@@ -122,7 +122,7 @@
   flex-direction: column;
   gap: 20px;
   padding-top: 12px;
-  background-color: #e5e5e5;
+  background-color: #fff;
 }
 
 .container {
