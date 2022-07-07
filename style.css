@@ -549,7 +549,18 @@ textarea {
     font-family: "Poppins", sans-serif;
   }
 
-  
+  .hero-section {
+    background-image: url(assets/images/desktop-bg-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #fff;
+  }
+
+  .hero-section > div {
+    margin: auto;
+    width: 70%;
+  }
+
   .about-content {
     display: flex;
     flex-direction: row;
