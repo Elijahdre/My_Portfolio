@@ -540,3 +540,75 @@ textarea {
   margin-top: 40px;
   margin-left: 80px;
 }
+
+@media only screen and (min-width: 768px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+
+  
+  .about-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+
+  #about-container {
+    width: 80%;
+    margin: 70px auto 70px auto;
+    padding: 0;
+  }
+
+  .programming-lang {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .dropdown-menu {
+    width: 100%;
+  }
+
+ .about-description {
+    font-size: 15px;
+  } 
+
+  .contact-me {
+    background-image: url(assets/images/desktop-bg-img.png);
+  }
+
+  .contact-me > div {
+    margin: auto;
+    padding-top: 180px;
+    width: 40%;
+    box-sizing: border-box;
+  }
+
+
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-title {
+    margin-bottom: 50px;
+  }
+
+  .contact-description {
+    margin-bottom: 80px;
+  }
+
+  .btn {
+    padding-right: 10px;
+    width: 140px;
+  }
+
+  .footer-line {
+    display: none;
+  }
+}
