@@ -622,14 +622,14 @@ textarea {
     display: flex;
     flex-direction: row;
   }
-
-  .dropdown-menu {
-    width: 100%;
-  }
-
+  
   .Project-languages {
     flex-wrap: wrap;
     margin-top: 20px;
+  }
+
+  .dropdown-menu {
+    width: 100%;
   }
 
   .hero-links {
