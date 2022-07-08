@@ -632,7 +632,7 @@ textarea {
     width: 100%;
   }
 
-  .hero-links {
+  .about-hero-link {
     flex-direction: column;
     gap: 10px;
     margin-right: 10px;
