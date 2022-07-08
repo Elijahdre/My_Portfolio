@@ -549,6 +549,7 @@ textarea {
     font-family: "Poppins", sans-serif;
   }
 
+  /* navbar section */
   .nav-item {
     display: block;
   }
@@ -566,6 +567,7 @@ textarea {
     display: none;
   }
 
+  /* header section */
   .hero-section {
     background-image: url(assets/images/desktop-bg-img.png);
     background-repeat: no-repeat;
@@ -578,6 +580,26 @@ textarea {
     width: 70%;
   }
 
+  /* work section */
+  .container {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 142px;
+  }
+
+  .desktop-img {
+    width: 100%;
+  }
+
+  .snap-shoot-one {
+    width: 100%;
+  }
+
+  .Project-one-header {
+    width: 100%;
+  }
+
+  /* About section  */
   .about-content {
     display: flex;
     flex-direction: row;
@@ -604,6 +626,7 @@ textarea {
     font-size: 15px;
   }
 
+  /* Contact section */
   .contact-me {
     background-image: url(assets/images/desktop-bg-img.png);
   }
@@ -623,11 +646,11 @@ textarea {
   }
 
   .contact-title {
-    margin-bottom: 50px;
+    margin-bottom: 10px;
   }
 
   .contact-description {
-    margin-bottom: 80px;
+    margin-bottom: 10px;
   }
 
   .btn {
