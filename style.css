@@ -573,6 +573,7 @@ textarea {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #fff;
+    padding-top: 118px;
   }
 
   .hero-section > div {
@@ -585,6 +586,10 @@ textarea {
     display: flex;
     flex-direction: row;
     margin: 30px 142px;
+  }
+
+  .row-reverse {
+    flex-direction: row-reverse;
   }
 
   .desktop-img {
@@ -622,6 +627,19 @@ textarea {
     width: 100%;
   }
 
+  .Project-languages {
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+
+  .hero-links {
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 10px;
+    padding-right: 40px;
+    background-color: #f7f7f9;
+  }
+
   .about-description {
     font-size: 15px;
   }
@@ -633,7 +651,8 @@ textarea {
 
   .contact-me > div {
     margin: auto;
-    padding-top: 180px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     width: 40%;
     box-sizing: border-box;
   }
