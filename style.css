@@ -549,6 +549,23 @@ textarea {
     font-family: "Poppins", sans-serif;
   }
 
+  .nav-item {
+    display: block;
+  }
+
+  .nav-item a {
+    color: #344563;
+    font-weight: 500;
+  }
+
+  .nav-menu {
+    padding-right: 70px;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
   .hero-section {
     background-image: url(assets/images/desktop-bg-img.png);
     background-repeat: no-repeat;
@@ -583,9 +600,9 @@ textarea {
     width: 100%;
   }
 
- .about-description {
+  .about-description {
     font-size: 15px;
-  } 
+  }
 
   .contact-me {
     background-image: url(assets/images/desktop-bg-img.png);
@@ -597,7 +614,6 @@ textarea {
     width: 40%;
     box-sizing: border-box;
   }
-
 
   .flex-column {
     display: flex;
