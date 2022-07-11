@@ -9,6 +9,9 @@ Link to portfolio:
 - HTML
 - CSS
 
+## Live Demo
+
+Click here - [Live Demo](https://elijahdre.github.io/My_Portfolio/)
 
 ## Getting Started
  Inorder to be able to set this up locally and eventually run it, follow the steps;
