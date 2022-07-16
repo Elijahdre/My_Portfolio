@@ -540,3 +540,145 @@ textarea {
   margin-top: 40px;
   margin-left: 80px;
 }
+
+@media only screen and (min-width: 768px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+
+  /* navbar section */
+  .nav-item {
+    display: block;
+  }
+
+  .nav-item a {
+    color: #344563;
+    font-weight: 500;
+  }
+
+  .nav-menu {
+    padding-right: 70px;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  /* header section */
+  .hero-section {
+    background-image: url(assets/images/desktop-bg-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #fff;
+    padding-top: 118px;
+  }
+
+  .hero-section > div {
+    margin: auto;
+    width: 70%;
+  }
+
+  /* work section */
+  .container {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 142px;
+  }
+
+  .row-reverse {
+    flex-direction: row-reverse;
+  }
+
+  .desktop-img {
+    width: 100%;
+  }
+
+  .snap-shoot-one {
+    width: 100%;
+  }
+
+  .Project-one-header {
+    width: 100%;
+  }
+
+  /* About section  */
+  .about-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  #about-container {
+    width: 80%;
+    margin: 70px auto 70px auto;
+    padding: 0;
+  }
+
+  .programming-lang {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .Project-languages {
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+
+  .dropdown-menu {
+    width: 100%;
+  }
+
+  .about-hero-link {
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 10px;
+    padding-right: 40px;
+    background-color: #f7f7f9;
+  }
+
+  .about-description {
+    font-size: 15px;
+  }
+
+  /* Contact section */
+  .contact-me {
+    background-image: url(assets/images/desktop-bg-img.png);
+  }
+
+  .contact-me > div {
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 90px;
+    width: 40%;
+    box-sizing: border-box;
+  }
+
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-title {
+    margin-bottom: 10px;
+  }
+
+  .contact-description {
+    margin-bottom: 10px;
+  }
+
+  .btn {
+    padding-right: 10px;
+    width: 140px;
+  }
+
+  .footer-line {
+    display: none;
+  }
+}
