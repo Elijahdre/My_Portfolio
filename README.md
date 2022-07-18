@@ -8,6 +8,7 @@ Link to portfolio:
 
 - HTML
 - CSS
+- Javascript
 
 ## Live Demo
 
