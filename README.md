@@ -8,11 +8,15 @@ Link to portfolio:
 
 - HTML
 - CSS
+- Javascript
 
 ## Live Demo
 
 Click here - [Live Demo](https://elijahdre.github.io/My_Portfolio/)
+ Hamburger-menu
 
+
+ main
 
 ## Getting Started
  Inorder to be able to set this up locally and eventually run it, follow the steps;
