@@ -17,6 +17,7 @@
   justify-content: space-between;
   align-items: center;
   overflow: hidden;
+
 }
 
 .nav-branding {
@@ -614,7 +615,7 @@ textarea {
     /* justify-content: space-between; */
     align-items: center;
     gap: 50px;
-    padding-right: 10rem;
+    padding-right: 70px;
   }
 
   .hamburger {
