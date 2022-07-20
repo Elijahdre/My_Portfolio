@@ -16,6 +16,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  overflow: hidden;
 }
 
 .nav-branding {
@@ -27,50 +28,40 @@
   padding: 0 30px;
   cursor: pointer;
 }
-/* 
+
 .nav-menu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center; 
-  gap: 50px;
-} */
-
-.nav-item {
-  display: none;
-}
-
-.mobile-menu {
-  inset: 0 0 0 0%;
   position: fixed;
+  left: -100%; 
+   top: 0px; 
+  /* gap: 0; */
+  width: 100%;
+  height: 100vh;
+  transition: 0.1s;
+  padding-bottom: 100%;
+  background: rgba(96, 112, 255, 0.7);
+  backdrop-filter: blur(0.5rem);
   padding: min(30vh, 5rem) 2em;
-  /* background: rgba(96, 112, 255, 0.7); */
-  backdrop-filter: blur(0.7rem);
-  z-index: 100;
+  z-index: 9;
 }
 
-.mobile-menu ul {
+.nav-link {
+  font-weight: 600;
+  font-size: 30px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  margin: 10px;
+}
+.nav-item {
   display: flex;
   flex-direction: column;
 }
-
-.nav-item-m {
-  margin-bottom: 2rem;
-  font-weight: 600;
-  font-size: 26px;
-  color: #fff;
+.nav-menu.active {
+  left: 0;
 }
-
-
-
 
 .hamburger {
   display: block;
-  cursor: pointer;
-  margin-right: 20px;
-  z-index: 9999;
-  position: absolute;
-  right: 50px;
-  top: 25px;
+  padding-right: 20px;
 }
 
 .hamburger.active .bar:nth-child(2) {
@@ -91,6 +82,7 @@
   margin: 5px 0;
   transition: all 0.3s ease;
   background-color: #6070ff;
+  z-index: 3;
 }
 
 .hero-section {
@@ -193,7 +185,7 @@
 }
 
 .Project-one-header > h4 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -210,7 +202,7 @@
 
 .project1-text {
   color: #344563;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
 }
 
@@ -220,7 +212,7 @@
   height: 16px;
   left: 0;
   top: 8px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -234,7 +226,7 @@
   height: 16px;
   left: 0;
   top: 8px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -248,7 +240,7 @@
   height: 16px;
   left: 0;
   top: 8px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -257,7 +249,7 @@
 }
 
 .project-requirement {
-  font: normal normal 400 15px 'Poppins', sans-serif;
+  font: normal normal 400 15px "Poppins", sans-serif;
   line-height: 24px;
   color: #344563;
   position: static;
@@ -368,7 +360,7 @@
   height: 101px;
   left: 0;
   top: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -379,7 +371,7 @@
 }
 
 .about-description {
-  font: 400 16px / 24px 'Poppins', sans-serif;
+  font: 400 16px / 24px "Poppins", sans-serif;
   position: static;
   width: 100%;
   left: 0;
@@ -399,7 +391,7 @@
   height: 24px;
   left: 0;
   top: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 100;
   font-size: 16px;
@@ -415,7 +407,7 @@
 }
 
 .btn1 {
-  font: normal normal 400 17px 'Poppins', sans-serif;
+  font: normal normal 400 17px "Poppins", sans-serif;
   width: 180px;
   height: 48px;
   display: flex;
@@ -455,7 +447,7 @@
   left: 12px;
   right: 78px;
   top: calc(50% - 24px / 2);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -472,7 +464,7 @@
 }
 
 .hero-sub-link {
-  font: normal normal 400 15px 'Poppins', sans-serif;
+  font: normal normal 400 15px "Poppins", sans-serif;
 }
 
 .programming-lang1 {
@@ -493,7 +485,7 @@
 }
 
 .framework1 {
-  font: normal normal 500 20px 'Poppins', sans-serif;
+  font: normal normal 500 20px "Poppins", sans-serif;
 }
 
 .icon {
@@ -512,7 +504,8 @@
   text-align: center;
   color: #fff;
   font-family: inherit;
-  background-image: url(assets/images/contact-form-image.png), url(assets/images/contact-form-image.png);
+  background-image: url(assets/images/contact-form-image.png),
+    url(assets/images/contact-form-image.png);
   background-position: top right, bottom right;
   padding-top: 150px;
   background-size: cover;
@@ -589,17 +582,21 @@ textarea {
   }
 
   /* navbar section */
-  
+
   .nav-item a {
     color: #344563;
     font-weight: 500;
   }
 
-  .mobile-menu{
+  .mobile-menu {
     display: none;
   }
 
   .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
     padding-right: 70px;
   }
 
@@ -722,7 +719,6 @@ textarea {
     display: none;
   }
 
-  
   /* animation */
 
   .hero-h1 {
