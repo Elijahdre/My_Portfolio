@@ -90,3 +90,6 @@ for (let i = 0; i < projectList.length; i += 1) {
     });
   });
 }
+
+
+/* Form Validation */
