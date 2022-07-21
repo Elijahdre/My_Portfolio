@@ -650,7 +650,10 @@ textarea {
   margin-bottom: 10px;
 }
 
-
+.closeBtn {
+  cursor: pointer;
+  font-size: 1rem;
+}
 
 
 
