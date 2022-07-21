@@ -11,7 +11,7 @@ document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click'
   navMenu.classList.remove('active');
 }));
 
-/*Pop up menu*/
+/* Pop up menu */
 
 const projectList = [
   {
