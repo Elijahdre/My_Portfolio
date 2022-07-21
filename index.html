@@ -367,10 +367,10 @@
             to help with it.
           </p>
           <form
+            id="input"
             class="flex-column"
             action="https://formspree.io/f/xbjwpyjb"
             method="POST"
-            id='form'
           >
             <input
               type="text"
@@ -379,13 +379,14 @@
               minlength="3"
               maxlength="30"
               required
-            />
+            >
             <input
+              id="email"
               type="email"
               name="email"
               placeholder="Email address"
               required
-            />
+            >
             <p id="form-message-error"></p>
             <textarea
               name="message"
