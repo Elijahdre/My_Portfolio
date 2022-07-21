@@ -6,17 +6,20 @@ hamburger.addEventListener('click', () => {
   navMenu.classList.toggle('active');
 });
 
-document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click', () => {
-  hamburger.classList.remove('active');
-  navMenu.classList.remove('active');
-}));
+document.querySelectorAll('.nav-link').forEach((n) =>
+  n.addEventListener('click', () => {
+    hamburger.classList.remove('active');
+    navMenu.classList.remove('active');
+  })
+);
 
 /* Pop up menu */
 
 const projectList = [
   {
     title: 'Tonic',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.',
+    description:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.',
     imageURL: 'assets/images/desktop-img-1.png',
     company: 'CANOPY',
     role: 'Back End Dev',
@@ -25,7 +28,8 @@ const projectList = [
   },
   {
     title: 'Multi-Post Stories',
-    description: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
+    description:
+      'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
     imageURL: 'assets/images/desktop-img2.png',
     company: 'FACEBOOK',
     role: 'Full Stack Dev',
@@ -34,7 +38,8 @@ const projectList = [
   },
   {
     title: 'Facebook 360',
-    description: 'AExploring the future of media in Facebook`s first Virtual Realityapp; a place to discover and enjoy 360 photos and videos onGear VR',
+    description:
+      'AExploring the future of media in Facebook`s first Virtual Realityapp; a place to discover and enjoy 360 photos and videos onGear VR',
     imageURL: 'assets/images/desktop-img3.png',
     company: 'FACEBOOK',
     role: 'Full Stack Dev',
@@ -43,7 +48,8 @@ const projectList = [
   },
   {
     title: 'Uber Navigation',
-    description: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
+    description:
+      'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
     imageURL: 'assets/images/desktop-img4.png',
     company: 'Uber',
     role: 'Lead Developer',
@@ -65,13 +71,17 @@ for (let i = 0; i < projectList.length; i += 1) {
         <span class='closeBtn' >X</span>
       </div>
       <div class="popup_body">
-        <div>${projectList[i].company} . ${projectList[i].role} . ${projectList[i].year} </div>
+        <div>${projectList[i].company} . ${projectList[i].role} . ${
+      projectList[i].year
+    } </div>
         <img src=${projectList[i].imageURL} >
         <div class="popup_details">
           <p>${projectList[i].description}</p>
           <div class='popup_tags_links'>
             <div class='popup_tags'>
-              ${projectList[i].tags.map((tech) => ` <span class='tech'> ${tech} </span> `).join(' ')}
+              ${projectList[i].tags
+                .map((tech) => ` <span class='tech'> ${tech} </span> `)
+                .join(' ')}
             </div>
             <div>
               <button class='popup_btn'>See Live <img src="assets/images/Icon.png" ></button> 
@@ -91,5 +101,7 @@ for (let i = 0; i < projectList.length; i += 1) {
   });
 }
 
-
 /* Form Validation */
+const form = document.getElementById('form');
+const email = document.getElementById('email');
+const displayMsg = document.getElementById('form-message-error');
