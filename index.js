@@ -6,12 +6,10 @@ hamburger.addEventListener('click', () => {
   navMenu.classList.toggle('active');
 });
 
-document.querySelectorAll('.nav-link').forEach((n) =>
-  n.addEventListener('click', () => {
-    hamburger.classList.remove('active');
-    navMenu.classList.remove('active');
-  })
-);
+document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click', () => {
+  hamburger.classList.remove('active');
+  navMenu.classList.remove('active');
+}));
 
 /* Pop up menu */
 
@@ -72,16 +70,16 @@ for (let i = 0; i < projectList.length; i += 1) {
       </div>
       <div class="popup_body">
         <div>${projectList[i].company} . ${projectList[i].role} . ${
-      projectList[i].year
-    } </div>
+  projectList[i].year
+} </div>
         <img src=${projectList[i].imageURL} >
         <div class="popup_details">
           <p>${projectList[i].description}</p>
           <div class='popup_tags_links'>
             <div class='popup_tags'>
               ${projectList[i].tags
-                .map((tech) => ` <span class='tech'> ${tech} </span> `)
-                .join(' ')}
+    .map((tech) => ` <span class='tech'> ${tech} </span> `)
+    .join(' ')}
             </div>
             <div>
               <button class='popup_btn'>See Live <img src="assets/images/Icon.png" ></button> 
