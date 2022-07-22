@@ -101,11 +101,11 @@ for (let i = 0; i < projectList.length; i += 1) {
 
 /* Form Validation */
 
-const email = document.getElementById('email');
-const form = document.getElementById('input');
+const email = document.getElementByClass('email');
+const form = document.getElementByClass('input');
 const displayMsg = document.getElementById('form-message-error');
 
-form.addEventListener('submit', (event) => {
+form.addEventListener('onclick', (event) => {
   if (email.value !== email.value.toLowerCase()) {
     event.preventDefault();
     displayMsg.style.visibility = 'visible';
