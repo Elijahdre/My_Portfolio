@@ -1,43 +1,87 @@
-# Portfolio Project
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-Set up of my personal portfolio project! <br>
-Link to portfolio:
+# Elijah Odjegba Portfolio
+
+> This is my working portfolio. Inside you will find my background information, contact information, and my recent projects.
 
 
-## Built With
+## Built With 🛠️
 
-- HTML
-- CSS
+- [x] Language: HTML,CSS and JavaScript
+- [x] Linters: Lighthouse, Webhint, Stylelint and ESLint
+- [x] Code Editor: VS Code
+- [x] Figma [Template 1](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=0%3A1)
+
+## Website Mockup 📱 💻 🖥️
+![app_screenshot](Portfolio-screenshot.png)
 
 ## Live Demo
 
 Click here - [Live Demo](https://elijahdre.github.io/My_Portfolio/)
 
-
 ## Getting Started
- Inorder to be able to set this up locally and eventually run it, follow the steps;
-- Open your Gitbash or your code editor's terminal and run the command git clone git@github.com:Elijahdre/My-Portfolio.git
-- Then you can pull the work from github to ur local machine using the git pull command.
+To get a local copy up and running follow these simple steps.
+
+### Prerequisites
+
+- [x] A web browser like Google Chrome.
+- [x] A code editor like Visual Studio Code with Git and Node.js.
+
+You can check if Git is installed by running the following command in the terminal.
+```
+$ git --version
+```
+
+Likewise for Node.js and npm for package installation.
+```
+$ node --version && npm --version
+```
+
+### Setup
+Clone the repository using the GitHub link provided below.
+
+### Install
+In the terminal, go to your file directory and run this command.
+
+```
+$ git clone git@github.com:Elijahdre/My_Portfolio.git
+```
+
+### Run tests
+To check for linters, use the files provided by [Microverse](https://github.com/microverseinc/linters-config). A GitHub action is also set to run during pull request.
+```
+$ npm install
+```
+
+## Usage
+Kindly modify the files as needed. This website demonstrates both desktop and mobile versions.
+
+## Deployment
+This app is deployed in the GitHub Pages for easy viewing upon merged on the main branch.
+Please find the link in the Live Demo section.
 
 
 
 ## Author
 
-👤 **Author**
+👤 **Elijah Odjegba** <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="20"/>
 
-- GitHub: [Elijahdre](https://github.com/Elijahdre)
-- Twitter: [@Kingglijah](https://twitter.com/kingglijah)
-- LinkedIn: [Elijah Odjegba](https://www.linkedin.com/in/elijah-odjegba-862708179/)
+  - GitHub: [![GitHub Badge](https://img.shields.io/badge/-Elijahdre-white?logo=GitHub&logoColor=181717&style=plastic)](https://github.com/Elijahdre)
+  - Twitter: [![Twitter Badge](https://img.shields.io/badge/-kingglijah-white?logo=Twitter&logoColor=1DA1F2&style=plastic)](https://twitter.com/kingglijah)
+  - LinkedIn: [![LinkedIn Badge](https://img.shields.io/badge/-Elijah--Odjegba-white?logo=LinkedIn&logoColor=0A66C2&style=plastic)](https://www.linkedin.com/in/elijah-odjegba-862708179/)
+
 
  **Petro Lesapiti**
 
-- GitHub: [Elijahdre](https://github.com/Loltolo-Lesapiti)
-- Twitter: [@Kingglijah](https://twitter.com/kingglijah)
-- LinkedIn: [Elijah Odjegba](https://www.linkedin.com/in/elijah-odjegba-862708179/)
+- GitHub: [Loltolo-Lesapiti](https://github.com/Loltolo-Lesapiti)
+- Twitter: [@Loltolo-Lesapiti](https://twitter.com/Loltolo-Lesapiti)
+- LinkedIn: [Loltolo-Lesapiti](https://www.linkedin.com/in/Loltolo-Lesapiti/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Elijahdre/My_Portfolio/issues).
 
 
 ## Show your support
@@ -46,9 +90,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- MDN docs,
-- Inspiration
-- etc
+- [Microverse](https://www.microverse.org/)
+- Code Reviewers
+- Coding Partners
 
 ## 📝 License
 
