@@ -7,6 +7,7 @@
 
 ## Built With 🛠️
 
+<<<<<<< HEAD
 - [x] Language: HTML,CSS and JavaScript
 - [x] Linters: Lighthouse, Webhint, Stylelint and ESLint
 - [x] Code Editor: VS Code
@@ -14,6 +15,11 @@
 
 ## Website Mockup 📱 💻 🖥️
 ![app_screenshot](Portfolio-screenshot.png)
+=======
+- HTML
+- CSS
+- Javascript
+>>>>>>> 87076fd341c641bb49d875a9b966f9f3d257caf1
 
 ## Live Demo
 
