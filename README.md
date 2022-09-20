@@ -7,19 +7,10 @@
 
 ## Built With 🛠️
 
-<<<<<<< HEAD
 - [x] Language: HTML,CSS and JavaScript
 - [x] Linters: Lighthouse, Webhint, Stylelint and ESLint
 - [x] Code Editor: VS Code
 - [x] Figma [Template 1](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=0%3A1)
-
-## Website Mockup 📱 💻 🖥️
-![app_screenshot](Portfolio-screenshot.png)
-=======
-- HTML
-- CSS
-- Javascript
->>>>>>> 87076fd341c641bb49d875a9b966f9f3d257caf1
 
 ## Live Demo
 
